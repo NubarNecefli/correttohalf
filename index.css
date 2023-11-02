@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+width: 100%;
+height: 200px;
+background-color: black;
+}
+.header .logo img{
+    width: 30px;
+height:10px;
+}
+.header .navbar a{
+    margin: 40px;
+    margin-left: 80px;
+    text-decoration: underline;
+}
+.header .navbar a:hover{
+    border-bottom: 50px;
+    padding-bottom: 50px;
+}
+.header .icons{
+    margin-left: 1200px;
+}
+@media(max-width:1016px){
+    html{
+        font-size: 55%;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
+}
+.section img{
+    width: 100% ;
+    height: 600px;
+}
